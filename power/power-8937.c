@@ -62,6 +62,7 @@ static int current_power_profile = PROFILE_BALANCED;
 static int profile_high_performance[] = {
     SCHED_BOOST_ON_V3, 0x1,
     ALL_CPUS_PWR_CLPS_DIS_V3, 0x1,
+    MAX_FREQ_BIG_CORE_0, 0XFFF,
     MIN_FREQ_BIG_CORE_0, 0x578,
     CPUS_ONLINE_MIN_BIG,0x3,
 //    MIN_FREQ_LITTLE_CORE_0, 0xFFF,
@@ -90,7 +91,7 @@ static int profile_bias_power[] = {
 static int profile_bias_performance[] = {
     GPU_MIN_POWER_LEVEL, 0x4,
     CPUS_ONLINE_MIN_BIG,0x3,
-    MIN_FREQ_BIG_CORE_0, 0x445,
+    MIN_FREQ_BIG_CORE_0, 0x3BF,
 };
 // clang-format on
 
