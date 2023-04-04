@@ -133,14 +133,12 @@ vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so|d3f518a419c3f326e8ee982843
 vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so|264662318643378572385cb03b6d7dbe39e2152f
 vendor/lib/vendor.qti.hardware.data.qmi@1.0.so|6384742700c08ea65646c49184f01e67dc319a14
 
-# Camera | from J415NKOU2CTH5
-vendor/lib/hw/camera.msm8937.so|72e948d2a27fedf313e8c289ec5f277950758b1e
-
-# Camera | from J610GUBU4CTI1
-vendor/lib/hw/camera.msm8937.so|05c3cade8f4620cdbf9cb86e00dd8022883b27fa
+# Camera | from J410G
+vendor/lib/hw/camera.msm8937.so
 
 # Camera
 vendor/bin/hw/vendor.samsung.hardware.camera.provider@3.0-service
+vendor/etc/init/android.hardware.camera.provider@2.5-service.rc
 vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/android.hardware.camera.provider@2.5-legacy.so
@@ -176,11 +174,8 @@ vendor/lib/libactuator_dw9808.so
 # Camera-bin
 vendor/bin/mm-qcamera-app
 
-# Camera-bin | from J415NKOU2CTH5
-vendor/bin/mm-qcamera-daemon|d0e1fdb322718687a4ea924a6f9bdd507b395aa2
-
-# Camera-bin | from J610GUBU4CTI1
-vendor/bin/mm-qcamera-daemon|a92dc47cb50ee16511438efa701fe563314ebdbf
+# Camera-bin | from J410G
+vendor/bin/mm-qcamera-daemon
 
 # Camera-chromatix
 vendor/lib/libchromatix_csidtg_common.so
@@ -823,9 +818,6 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/vendor.qti.hardware.factory@1.0.so
 vendor/lib/vendor.qti.hardware.factory@1.1.so
 
-# Fingerprint
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-
 # Firmware
 vendor/firmware/a225p5_pm4.fw
 vendor/firmware/a225_pfp.fw
@@ -1040,9 +1032,6 @@ vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVdec.so
 vendor/lib/libOmxVenc.so
 vendor/lib/libstagefrighthw.so
-
-# NFC
-vendor/firmware/nfc/libpn553_fw.so
 
 # Perf
 lib/libqti-perfd-client_system.so
@@ -1268,11 +1257,8 @@ vendor/lib/vendor.qti.hardware.seccam@1.0.so
 # Sensor-calibrate
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 
-# Sensors | from J415NKOU2CTH5
-vendor/lib/hw/sensors.msm8937.so|d68912097600da365610933f3b93e7fe19ba44a5
-
-# Sensors | from J610GUBU4CTI1
-vendor/lib/hw/sensors.msm8937.so|67d617bf7f6eba977ef7daa8c9513f52b825b691
+# Sensors | from J410G
+vendor/lib/hw/sensors.msm8937.so
 
 # Sensors
 vendor/bin/hw/android.hardware.sensors@1.0-service
