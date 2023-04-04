@@ -13,7 +13,7 @@
 # limitations under the License.
 
 LOCAL_PATH := $(call my-dir)
-ifneq ($(filter j4primelte j6primelte j4corelte,$(TARGET_DEVICE)),)
+ifneq ($(filter j4corelte,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)

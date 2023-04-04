@@ -13,8 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COMMON_PATH := device/samsung/msm8917-common
-BOARD_VENDOR := samsung
+DEVICE_PATH := device/samsung/j4corelte
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
@@ -46,6 +45,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8917_medusa
+TARGET_KERNEL_CONFIG := j4corelte_defconfig
 
 # FM
 BOARD_HAS_QCA_FM_SOC := "cherokee"
@@ -101,6 +101,10 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+#Camera
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+    /vendor/bin/mm-qcamera-daemon=27
+
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
@@ -129,7 +133,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12348030976 # 25765059584 - 16384
 BOARD_CACHEIMAGE_PARTITION_SIZE := 106954752
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
-
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1644167168
+BOARD_VENDORIMAGE_PARTITION_SIZE := 260046848
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
@@ -156,6 +161,23 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
+
+#Low ram
+TARGET_HAS_LOW_RAM := true
+
+# Malloc
+MALLOC_SVELTE := true
+
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
+# Timeservice
+BOARD_USES_QC_TIME_SERVICES := true
+
+# SurfaceFlinger
+TARGET_USE_QCOM_SURFACEFLINGER := true
+
+TARGET_OTA_ASSERT_DEVICE := j4corelte, j4coreltejx
 
 # RIL
 BOARD_PROVIDES_LIBRIL := true
@@ -190,7 +212,8 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libsec-ril.so|libshims_ril.so \
-    /system/vendor/lib/libsec-ril-dsds.so|libshims_ril.so
+    /system/vendor/lib/libsec-ril-dsds.so|libshims_ril.so \
+    /system/vendor/lib/libsensorndkbridge.so|libbase_shim.so
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
@@ -210,4 +233,4 @@ WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_HAVE_SAMSUNG_WIFI := true
 
--include vendor/samsung/msm8917-common/BoardConfigVendor.mk
+-include vendor/samsung/j4corelte/BoardConfigVendor.mk

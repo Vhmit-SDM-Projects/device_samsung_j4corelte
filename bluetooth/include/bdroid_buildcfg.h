@@ -33,11 +33,7 @@ static inline const char *BtmGetDefaultName()
     property_get("ro.product.device", product_device, "");
 
     if (strcmp(product_device, "j4corelte") == 0)
-        return "Samdung Glaxy j4 Core";
-    if (strcmp(product_device, "j6primelte") == 0)
-        return "Samsung Galaxy J6+";
-    if (strcmp(product_device, "j4primelte") == 0)
-        return "Samsung Galaxy J4+";
+        return "Samsung Galaxy J4 Core";
 
     // Fallback to ro.product.model
     return "";

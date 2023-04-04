@@ -104,17 +104,6 @@ special_mode_mask values:
       <A3Preview>s5k5e3yx_f2_2_zsl_preview_3a</A3Preview>
       <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
-      <ISPPreview>s5k5e3yx_f2_2_snapshot_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_snapshot_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_preview_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_snapshot_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_preview_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="VIDEORECORDING">
       <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
       <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
@@ -126,49 +115,16 @@ special_mode_mask values:
       <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
       <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="VIDEORECORDING,DIM_VGA">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
+    <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
+      <ISPPreview>s5k5e3yx_f2_2_snapshot_high_isp</ISPPreview>
+      <ISPSnapshot>s5k5e3yx_f2_2_snapshot_high_isp</ISPSnapshot>
       <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
+      <CPPPreview>s5k5e3yx_f2_2_preview_high_cpp</CPPPreview>
+      <CPPSnapshot>s5k5e3yx_f2_2_snapshot_high_cpp</CPPSnapshot>
       <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
       <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
+      <A3Preview>s5k5e3yx_f2_2_zsl_preview_3a</A3Preview>
       <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="VIDEORECORDING,DIM_720P">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="VIDEORECORDING,DIM_1080P">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="EFFECT_VIDEO_RECORDING">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_mode_effect_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_mode_effect_video_3a</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="VIDEORECORDING">
       <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
@@ -181,50 +137,6 @@ special_mode_mask values:
       <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
       <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="VIDEORECORDING,DIM_VGA">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="VIDEORECORDING,DIM_720P">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="VIDEORECORDING,DIM_1080P">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_zsl_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_zsl_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="EFFECT_VIDEO_RECORDING">
-      <ISPPreview>s5k5e3yx_f2_2_video_high_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_video_high_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_video_high_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_video_high_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_video_high_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_video_high_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_liveshot_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_mode_effect_video_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_mode_effect_video_3a</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="2">
       <ISPPreview>s5k5e3yx_f2_2_hfr_120_isp</ISPPreview>
       <ISPSnapshot>s5k5e3yx_f2_2_hfr_120_isp</ISPSnapshot>
@@ -236,18 +148,7 @@ special_mode_mask values:
       <A3Preview>s5k5e3yx_f2_2_hfr_120_3a</A3Preview>
       <A3Video>s5k5e3yx_f2_2_hfr_120_3a</A3Video>
     </ChromatixName>
-    <!--FACE LOCK-->
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="FACE_LOCK">
-      <ISPPreview>s5k5e3yx_f2_2_mode_face_unlock_isp</ISPPreview>
-      <ISPSnapshot>s5k5e3yx_f2_2_mode_face_unlock_isp</ISPSnapshot>
-      <ISPVideo>s5k5e3yx_f2_2_mode_face_unlock_isp</ISPVideo>
-      <CPPPreview>s5k5e3yx_f2_2_mode_face_unlock_cpp</CPPPreview>
-      <CPPSnapshot>s5k5e3yx_f2_2_mode_face_unlock_cpp</CPPSnapshot>
-      <CPPVideo>s5k5e3yx_f2_2_mode_face_unlock_cpp</CPPVideo>
-      <CPPLiveshot>s5k5e3yx_f2_2_mode_face_unlock_cpp</CPPLiveshot>
-      <A3Preview>s5k5e3yx_f2_2_mode_face_unlock_3a</A3Preview>
-      <A3Video>s5k5e3yx_f2_2_mode_face_unlock_3a</A3Video>
-    </ChromatixName>
+    
     <!--3rd party VT mode 7~30fps-->	
     <ChromatixName sensor_resolution_index="0" special_mode_mask="PREVIEW_FRONT_DIM_LOW,SNAPSHOT_FRONT_DIM_LOW,VIDEO_FRONT_DIM_LOW">
       <ISPPreview>s5k5e3yx_f2_2_preview_low_isp</ISPPreview>
