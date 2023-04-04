@@ -72,7 +72,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := msm8937
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
 QCOM_BT_USE_SMD_TTY := true
@@ -87,7 +87,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/bin/mm-qcamera-daemon=27
 
 # Config
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 	
 # Dex
 WITH_DEXPREOPT := true
@@ -113,8 +113,8 @@ TARGET_USES_HWC2 := true
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest.xml
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
