@@ -133,9 +133,6 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8917
 TARGET_KERNEL_CONFIG := j4corelte_defconfig
 
-# Low ram
-TARGET_HAS_LOW_RAM := true
-
 # Malloc
 MALLOC_SVELTE := true
 
