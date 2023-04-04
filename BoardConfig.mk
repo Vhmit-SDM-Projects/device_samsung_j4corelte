@@ -96,6 +96,9 @@ WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
@@ -118,10 +121,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
-
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_samsung_msm8917
-TARGET_RECOVERY_DEVICE_MODULES := libinit_samsung_msm8917
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 loop.max_part=7
@@ -156,9 +155,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
-
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
