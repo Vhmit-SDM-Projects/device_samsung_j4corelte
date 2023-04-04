@@ -13,37 +13,30 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit MIUI Camera
-#$(call inherit-product, vendor/MiuiCamera/config.mk)
-
+# Target
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Inherit from j4corelte device
-$(call inherit-product, $(LOCAL_PATH)/device.mk)
-
-# Installs gsi keys into ramdisk, to boot a GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
-
-
-# Build with go flags (modificado)
-#$(call inherit-product, $(SRC_TARGET_DIR)/product/go_defaults_common.mk)
-
-PRODUCT_BRAND := samsung
-PRODUCT_DEVICE := j4corelte
-PRODUCT_MANUFACTURER := samsung
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_j4corelte
+PRODUCT_DEVICE := j4corelte
+PRODUCT_BRAND := samsung
 PRODUCT_MODEL := Galaxy J4 Core
+PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-TARGET_VENDOR := samsung
-TARGET_VENDOR_PRODUCT_NAME := j4corelte
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="j4corelteub-user 8.1.0 M1AJB J410GUBU1AUE2 release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="j4corelteub-user 8.1.0 M1AJB J410GUBU1AUE2 release-keys" \
+    PRODUCT_NAME="j4corelte"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys"
