@@ -547,44 +547,15 @@ vendor/lib/libchromatix_sr556_video_isp.so
 vendor/lib/libchromatix_sr556_zsl_preview_3a.so
 vendor/lib/libchromatix_sr556_zsl_video_3a.so
 
-# Camera-configs | from J415NKOU2CTH5
-vendor/etc/camera/B13QL_s5k3l6xx_module_info.xml
-vendor/etc/camera/Q05QL_s5k5e9yx_front_module_info.xml
-vendor/etc/camera/s5k2p6sx_chromatix.xml
-vendor/etc/camera/s5k2x7sp_chromatix.xml
-vendor/etc/camera/s5k3l6xx_chromatix.xml
-vendor/etc/camera/s5k3l6xx_chromatix_j4primelte.xml
-vendor/etc/camera/s5k3p8sp_chromatix.xml
-vendor/etc/camera/s5k4h5yc_chromatix.xml
-vendor/etc/camera/s5k4hayx_chromatix.xml
-vendor/etc/camera/s5k5e3yx_f2_2_chromatix.xml
-vendor/etc/camera/s5k5e9yx_chromatix.xml
-vendor/etc/camera/s5k5e9yx_q05ql_chromatix.xml
-vendor/etc/camera/sdm450_camera_j4primelte.xml
-vendor/etc/camera/sr259_chromatix.xml
-vendor/etc/camera/sr544_chromatix.xml
-vendor/etc/camera/sr556_chromatix.xml
-
-# Camera-configs | from J610GUBU4CTI1
-vendor/etc/camera/A13QL_s5k3l6xx_module_info.xml
+# Camera-configs | from J410G
+vendor/etc/camera/L08QL_s5k4h5yc_module_info.xml
 vendor/etc/camera/P08QL_s5k4h5yc_module_info.xml
+vendor/etc/camera/Q05QL_s5k5e9yx_module_info.xml
 vendor/etc/camera/Q08QL_s5k4h5yc_module_info.xml
-vendor/etc/camera/R05QL_s5k5e9yx_module_info.xml
-vendor/etc/camera/s5k2p6sx_chromatix.xml
-vendor/etc/camera/s5k2x7sp_chromatix.xml
-vendor/etc/camera/s5k3l6xx_chromatix.xml
-vendor/etc/camera/s5k3l6xx_chromatix_j4primelte.xml
-vendor/etc/camera/s5k3p8sp_chromatix.xml
 vendor/etc/camera/s5k4h5yc_chromatix.xml
-vendor/etc/camera/s5k4hayx_chromatix.xml
 vendor/etc/camera/s5k5e3yx_f2_2_chromatix.xml
-vendor/etc/camera/s5k5e9yx_chromatix.xml
 vendor/etc/camera/s5k5e9yx_q05ql_chromatix.xml
-vendor/etc/camera/sdm450_camera_j6primelte.xml
-vendor/etc/camera/sr259_chromatix.xml
-vendor/etc/camera/sr544_chromatix.xml
-vendor/etc/camera/sr556_chromatix.xml
-vendor/etc/camera/Z08QL_s5k4hayx_module_info.xml
+vendor/etc/camera/sdm450_camera_j4corelte.xml
 
 # Camera-firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -724,6 +695,9 @@ vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 vendor/lib/libmmcamera_ubifocus_lib.so
+vendor/lib/libmpbase.so
+vendor/lib/libts_detected_face_hal.so
+vendor/lib/libts_face_beautify_hal.so
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -1263,6 +1237,7 @@ vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib/hw/sensors.msm8937.so
 
 # Sensors
+vendor/lib/android.hardware.sensors.leonel.artuzi.j4core@1.0.so
 vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/etc/init/android.hardware.sensors@1.0-service.rc
 vendor/lib/hw/android.hardware.sensors@1.0-impl.so
