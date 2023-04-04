@@ -169,6 +169,8 @@ vendor/lib/vendor.samsung.hardware.camera.device@4.0.so
 vendor/lib/vendor.samsung.hardware.camera.provider@3.0.so
 
 # Camera-actuators
+vendor/lib/libarcsoft_beautyshot.so
+vendor/lib/libactuator_dw9807.so
 vendor/lib/libactuator_dw9808.so
 
 # Camera-bin
