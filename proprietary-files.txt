@@ -573,15 +573,10 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 # Camera-ois
 vendor/lib/libois_lc898122.so
 
-# Camera-sensors | from J415NKOU2CTH5
-vendor/lib/libmmcamera_s5k5e9yx_front.so|f75c1213a7d91fbbf4924c462a6326c825483f06
-vendor/lib/libmmcamera2_sensor_modules.so|5a11b79ca7e89059ef5cc6d30c1ad3c9f8543e35
-
-# Camera-sensors | from J610GUBU4CTI1
-vendor/lib/libmmcamera_s5k4h5yc.so|daf0b40bc9df2398b198e84004e52b318dd62dff
-vendor/lib/libmmcamera_s5k4hayx.so|f06f9aebf9e18cf579181f2dad6fa7d35ce8349e
-vendor/lib/libmmcamera_s5k5e9yx.so|1970b7cc1bc920ae98233a0b65c4c6f53dfff6ff
-vendor/lib/libmmcamera2_sensor_modules.so|38880ec1d91d648750265a940737af1bb7d19535
+# Camera-sensors | from J410G
+vendor/lib/libmmcamera_s5k4h5yc.so
+vendor/lib/libmmcamera_s5k5e9yx.so
+vendor/lib/libmmcamera2_sensor_modules.so
 
 # Camera-sensors
 vendor/lib/libmmcamera2_c2d_module.so
@@ -604,8 +599,7 @@ vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dcrf_lib.so
-vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_dw9761b_2d_eeprom.so
+vendor/lib/libmmcamera_dw9807_eeprom.so
 vendor/lib/libmmcamera_dw9808_eeprom.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
@@ -613,13 +607,8 @@ vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_gt24c128_eeprom.so
-vendor/lib/libmmcamera_gt24c128_sub_eeprom.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so
-vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so
-vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
@@ -655,9 +644,8 @@ vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libmmcamera_isp_template.so
 vendor/lib/libmmcamera_isp_wb40.so
-vendor/lib/libmmcamera_le2464c_eeprom.so
-vendor/lib/libmmcamera_le2464c_master_eeprom.so
 vendor/lib/libmmcamera_llvd.so
+vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so
 vendor/lib/libmmcamera_lsi_s5k5e9yx_otp_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
